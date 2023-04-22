@@ -12,15 +12,20 @@
 
 </head>
 <body>
-    <div class="calculadora">
+    <div class="calculadora p-5">
         <div class="container">
-            <div class="row ">
-                <div id="pantalla"></div>
+            <div class="row">
+                <input type="text" id="pantalla" class="col-12 form-control" readonly >
             </div>
             <div class="row ">
                 <button id="ce" class="col-6 btn btn-danger">CE</button>
                 <button class="col btn btn-secondary" value="/">/</button>
                 <button class="col btn btn-secondary" value="*">*</button>
+            </div>
+            <div class="row ">
+                <button class="col btn btn-secondary" id="raiz">√</button>
+                <button class="col btn btn-secondary" value="(">(</button>
+                <button class="col btn btn-secondary" value=")">)</button>
             </div>
             <div class="row ">
                 <button class="col btn btn-secondary" value="7">7</button>

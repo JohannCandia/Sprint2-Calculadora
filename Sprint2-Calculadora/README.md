@@ -1,2 +1,0 @@
-# Sprint2-Calculadora
- 

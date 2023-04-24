@@ -3,16 +3,18 @@ Desarrollo Final del Módulo
 
 
 <pre>
-# Sprint Final Módulo 2
+ <h1>Sprint Final Módulo 2</h1>
+    <h2>Desarrollo Final del Módulo</h2>
 
-## Desarrollo Final del Módulo
+    <h3>Integrantes:</h3>
+    <ul>
+        <li>Gabriela Moya</li>
+        <li>Katlheen Rodriguez</li>
+        <li>Johann Candia</li>
+        <li>Hervin Pradines</li>
+        <li>Fabian Collao</li>
+    </ul>
 
-### Integrantes:
-- Gabriela Moya
-- Katlheen Rodriguez
-- Johann Candia
-- Hervin Pradines
-- Fabian Collao
 
 ### Desarrollo de una calculadora WEB
 

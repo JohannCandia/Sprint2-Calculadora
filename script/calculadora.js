@@ -3,6 +3,7 @@ const pantalla = document.getElementById("pantalla");
 const botones = document.querySelectorAll("button");
 const calculadora=document.getElementById("calculadora");
 let codigoSecretoActivado = false;
+let bodyS2Active = false;
 
 
 //Funcion para agregar operador si no esta repetido.
@@ -13,6 +14,16 @@ const agregarOperador = (operador) => {
   pantallaError(operador);
 };
 
+//Comprueba si el fondo del body es el original o el nuevo y lo cambia.
+function toggleBodyBackground() {
+  if (bodyS2Active) {
+    document.body.style.backgroundColor = '#206fca'; // Establecer el color de fondo original
+    bodyS2Active = false;
+  } else {
+    document.body.style.backgroundColor = '#df478e'; // Establecer el nuevo color de fondo
+    bodyS2Active = true;
+  }
+}
 //Funcion que agrega el boton pulsado sobre los mensajes de error.
 function pantallaError(value) {
   if (pantalla.value == "ERROR!" || pantalla.value == "0" || pantalla.value == "NaN") {
@@ -88,7 +99,10 @@ document.addEventListener("keydown", (event) => {
 function codigoSecreto() {
   if (pantalla.value == "/(+)/") {
     calculadora.classList.toggle("calculadora-s2");
+    document.body.classList.toggle("body-s2");
     pantalla.value = "## codigo secreto ##";
     codigoSecretoActivado = true;
+    toggleBodyBackground();
+
   }
 }

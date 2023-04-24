@@ -2,6 +2,7 @@
 const pantalla = document.getElementById("pantalla");
 const botones = document.querySelectorAll("button");
 const calculadora=document.getElementById("calculadora");
+let codigoSecretoActivado = false;
 
 
 //Funcion para agregar operador si no esta repetido.
@@ -13,19 +14,21 @@ const agregarOperador = (operador) => {
 };
 
 //Funcion que agrega el boton pulsado sobre los mensajes de error.
-function pantallaError(value){
-  if(pantalla.value=="ERROR!"||pantalla.value=="0"||pantalla.value=="NaN"){
-    pantalla.value=value;
-  }else{
-    pantalla.value+= value;
+function pantallaError(value) {
+  if (pantalla.value == "ERROR!" || pantalla.value == "0" || pantalla.value == "NaN") {
+    pantalla.value = value;
+  } else if (!codigoSecretoActivado) {
+    pantalla.value += value;
+  } else {
+    codigoSecretoActivado = false;
   }
+  codigoSecreto(); // Llama a la función codigoSecreto aquí
 }
 
 //Recorremos el arreglo de los botones y les asignamos el evento Listener
 botones.forEach((boton) => {
   boton.addEventListener("click", () => {
     const botonPulsado = boton.value;
-    codigoSecreto();
     //Validaciones segun el boton pulsado
     if (boton.id === "igual") {
       //Intentamos ejecutar la operacion de la pantalla, si no aparece error
@@ -82,8 +85,10 @@ document.addEventListener("keydown", (event) => {
 });
 
 //Funcion para cambiar el color de la calculadora
-function codigoSecreto(){
-  if(pantalla.value=="/(+)/"){
+function codigoSecreto() {
+  if (pantalla.value == "/(+)/") {
     calculadora.classList.toggle("calculadora-s2");
+    pantalla.value = "## codigo secreto ##";
+    codigoSecretoActivado = true;
   }
 }

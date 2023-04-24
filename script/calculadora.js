@@ -1,7 +1,7 @@
 //Definimos constantes de la pantalla y todos los botones.
 const pantalla = document.getElementById("pantalla");
 const botones = document.querySelectorAll("button");
-const calculadora=document.getElementById("calculadora");
+const calculadora = document.getElementById("calculadora");
 let codigoSecretoActivado = false;
 let bodyS2Active = false;
 
@@ -44,7 +44,7 @@ botones.forEach((boton) => {
     if (boton.id === "igual") {
       //Intentamos ejecutar la operacion de la pantalla, si no aparece error
       try {
-        const resultado = eval(pantalla.value);  
+        const resultado = eval(pantalla.value);
         pantalla.value = parseFloat(resultado.toFixed(3));
       } catch (error) {
         pantalla.value = "ERROR!";
@@ -57,7 +57,7 @@ botones.forEach((boton) => {
       pantalla.value = "0";
     } else if (boton.id === "raiz") {
       //Calcular raiz solo si no hay un error
-      if(pantalla.value !="ERROR!"){
+      if (pantalla.value != "ERROR!") {
         pantalla.value = Math.sqrt(parseFloat(pantalla.value)).toFixed(1);
       }
     } else if (boton.textContent.match(/[+\-*/]/)) {
@@ -85,8 +85,8 @@ const botonesInput = (key) => {
     } catch (error) {
       pantalla.value = "ERROR!";
     }
-  }else if(key=="c"||key=="C"){
-    pantalla.value="";
+  } else if (key == "c" || key == "C") {
+    pantalla.value = "";
   }
 };
 

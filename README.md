@@ -2,14 +2,36 @@
 Desarrollo Final del Módulo
 
 
+<pre>
+# Sprint Final Módulo 2
 
-Integrantes:
+## Desarrollo Final del Módulo
 
-Gabriela Moya.
-Katlheen Rodriguez.
-Johann Candia.
-Hervin Pradines.
-Fabian Collao
+### Integrantes:
+- Gabriela Moya
+- Katlheen Rodriguez
+- Johann Candia
+- Hervin Pradines
+- Fabian Collao
+
+### Desarrollo de una calculadora WEB
+
+La idea es desarrollar una calculadora básica, que tenga las operaciones básicas:
+
+- División
+- Multiplicación
+- Suma
+- Resta
+
+Además de poder realizar las operaciones anteriormente nombradas, al realizar una operación que no tenga un resultado definido, debe mostrar un aviso de error. Asimismo, se implementó un script para detectar pulsaciones de teclado, y de esa manera poder usar la calculadora de mejor manera.
+
+El desarrollo del trabajo fue de la siguiente manera:
+
+1. Primero, se realizó un estudio del proyecto y se determinó la mejor manera de desarrollarlo.
+2.
+
+
+
 
 Desarrollo de una calculadora WEB
 

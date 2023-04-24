@@ -81,4 +81,4 @@ Para el desarrollo en conjunto del trabajo, se creó un repositorio en github
 
 Donde se fue desarrollando el proyecto, realizando las funciones de clonado, creación
 de ramas
-
+</pre>

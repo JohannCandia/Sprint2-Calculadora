@@ -3,13 +3,15 @@
 
 
 <h3>Integrantes:</h3>
+<ul>
+	<li> Fabian Collao</li>
+	<li> Gabriela Moya. </li>
+	<li>Hervin Pradines </li>
+	<li>Johann Candia.</li>
+	<li> Katlheen Rodriguez. </li>
 
-Gabriela Moya.
-Katlheen Rodriguez.
-Johann Candia.
-Hervin Pradines.
-Fabian Collao
-
+	
+</ul>
 Desarrollo de una calculadora WEB
 
 La idea es desarrollar una calculadora básica, que tenga las operaciones básicas:
@@ -58,7 +60,7 @@ Donde se fue desarrollando el proyecto, realizando las funciones de clonado, cre
 de ramas
 
 
-<h3> Como hago para probar el proyecyo? </h3> 
+<h3> Como hago para probar el proyecto? </h3> 
 
 1. Abra Visual Studio Code.
 

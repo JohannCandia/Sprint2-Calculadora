@@ -26,8 +26,12 @@ function toggleBodyBackground() {
 }
 //Funcion que agrega el boton pulsado sobre los mensajes de error.
 function pantallaError(value) {
-  if (pantalla.value == "ERROR!" || pantalla.value == "0" || pantalla.value == "NaN") {
-    pantalla.value = value;
+  if (pantalla.value == "ERROR!" || pantalla.value == "0" || pantalla.value == "NaN"||pantalla.value=="## codigo secreto ##") {
+    if(pantalla.value=="0"&&value=="."){
+      pantalla.value="0."
+    }else{
+      pantalla.value = value;
+    }
   } else if (!codigoSecretoActivado) {
     pantalla.value += value;
   } else {

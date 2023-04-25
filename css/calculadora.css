@@ -1,6 +1,13 @@
+/* Importamos la fuente con estilo digital */
 @font-face {
     font-family: "Digital-7";
     src: url(../font/digital-7.ttf);
+}
+/* Tamaño especial para verse desde dispositivos moviles */
+@media screen and (max-width:470px) {
+    #calculadora{
+        width: 90%;
+    }
 }
 
 body {
@@ -19,7 +26,7 @@ body {
     margin-bottom: 0.5em;
     overflow: hidden;
     position: relative;
-    max-width: 10em;
+    max-width: 100%;
     min-width: auto
 }
 
@@ -106,7 +113,7 @@ body {
     margin-bottom: 0.5em;
     overflow: hidden;
     position: relative;
-    max-width: 10em;
+    max-width: 100%;
     min-width: auto
 }
 
@@ -139,7 +146,6 @@ body {
     width: 3em;
     margin-left: 0.2em;
     margin-right: 0.2em;
-    ;
     border-radius: 0.5em;
 }
 

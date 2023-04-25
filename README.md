@@ -1,39 +1,14 @@
-#Sprint Final Módulo 2
-Desarrollo Final del Módulo
-
-
-<pre>
- <h1>Sprint Final Módulo 2</h1>
-    <h2>Desarrollo Final del Módulo</h2>
-
-    <h3>Integrantes:</h3>
-    <ul>
-        <li>Gabriela Moya</li>
-        <li>Katlheen Rodriguez</li>
-        <li>Johann Candia</li>
-        <li>Hervin Pradines</li>
-        <li>Fabian Collao</li>
-    </ul>
-
-
-### Desarrollo de una calculadora WEB
-
-La idea es desarrollar una calculadora básica, que tenga las operaciones básicas:
-
-- División
-- Multiplicación
-- Suma
-- Resta
-
-Además de poder realizar las operaciones anteriormente nombradas, al realizar una operación que no tenga un resultado definido, debe mostrar un aviso de error. Asimismo, se implementó un script para detectar pulsaciones de teclado, y de esa manera poder usar la calculadora de mejor manera.
-
-El desarrollo del trabajo fue de la siguiente manera:
-
-1. Primero, se realizó un estudio del proyecto y se determinó la mejor manera de desarrollarlo.
-2.
+<h1>Desarrollo Final del Módulo</h1>
 
 
 
+<h3>Integrantes:</h3>
+
+Gabriela Moya.
+Katlheen Rodriguez.
+Johann Candia.
+Hervin Pradines.
+Fabian Collao
 
 Desarrollo de una calculadora WEB
 
@@ -62,11 +37,11 @@ El desarrollo del trabajo fue de la siguiente manera
 	- calculadora.html
 	- calculadora.css
 	- calculadora.js
-	
+
 	calculadora. HTML es el esqueleto del proyecto, donde se encuentran ubicadas 
 Las etiquetas de las partes de la calculadora, así como las referencias a las instrucciones
 css y js
-	
+
 	calculadora. js se encarga de las instrucciones de nuestra calculadora, operaciones 
 Aritméticas, excepción de errores, en conclusión es la parte lógica
 
@@ -81,4 +56,21 @@ Para el desarrollo en conjunto del trabajo, se creó un repositorio en github
 
 Donde se fue desarrollando el proyecto, realizando las funciones de clonado, creación
 de ramas
-</pre>
+
+
+<h3> Como hago para probar el proyecyo? </h3> 
+
+1. Abra Visual Studio Code.
+
+2. Instale la extensión "Live Server" si aún no la tiene. Para instalarla, haga clic en el ícono de "Extensiones" en la barra lateral izquierda (o presione `Ctrl+Shift+X`), busque "Live Server" y haga clic en "Install" en la tarjeta de la extensión.
+
+3. Clone el repositorio del proyecto en su máquina local utilizando el siguiente comando en la terminal o Git Bash:
+git clone https://github.com/JohannCandia/Sprint2-Calculadora.git
+
+4. Abra el directorio del proyecto clonado en Visual Studio Code. Para hacerlo, vaya a `File > Open Folder...` y seleccione el directorio del proyecto.
+
+
+5. Haga clic con el botón derecho en el archivo `calculadora.html` en el panel "EXPLORER" y seleccione "Open with Live Server" en el menú contextual. Esto iniciará automáticamente un servidor local y abrirá la calculadora en su navegador web predeterminado.
+
+Ahora debería ver la calculadora en su navegador, y cualquier cambio que realice en el código se actualizará automáticamente en la vista del navegador.
+

@@ -43,15 +43,15 @@ El desarrollo del trabajo fue de la siguiente manera
 	- calculadora.css
 	- calculadora.js
 
-	calculadora. HTML es el esqueleto del proyecto, donde se encuentran ubicadas 
+	<p> calculadora.html es el esqueleto del proyecto, donde se encuentran ubicadas 
 Las etiquetas de las partes de la calculadora, así como las referencias a las instrucciones
-css y js
+css y js </p>
 
-	calculadora. js se encarga de las instrucciones de nuestra calculadora, operaciones 
-Aritméticas, excepción de errores, en conclusión es la parte lógica
+<p>	calculadora. js se encarga de las instrucciones de nuestra calculadora, operaciones 
+Aritméticas, excepción de errores, en conclusión es la parte lógica</p>
 
-	calculadora.css se encarga de la maquetación de la calculadora, dando colores,
-Posicionamiento y diseño 
+<p>	calculadora.css se encarga de la maquetación de la calculadora, dando colores,
+Posicionamiento y diseño </p>
 
 Además se usó la librería Bootstrap, para la visualización de la calculadora
 

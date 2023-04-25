@@ -29,8 +29,9 @@ Script para detectar pulsaciones de teclado, y de esa manera poder usarla de mej
 
 El desarrollo del trabajo fue de la siguiente manera
 
-.-Primero se realizó un estudio del proyecto y ver la mejor manera de desarrollarlo
-.-Se determinó el flujo de trabajo y las personas a desarrollarlo
+<p>.-Primero se realizó un estudio del proyecto y ver la mejor manera de desarrollarlo</p>
+<p>.-Se determinó el flujo de trabajo y las personas a desarrollarlo</p>
+	
 	-Fabian Collao: encargado del HTML
 	-Katlheen Rodriguez, Johann Candia: encargado del js
 	-Gabriela Moya: Encargado del css

@@ -12,14 +12,16 @@
 
 	
 </ul>
-Desarrollo de una calculadora WEB
+<h2>Desarrollo de una calculadora WEB</h2>
 
-La idea es desarrollar una calculadora básica, que tenga las operaciones básicas:
-
-División
-Multiplicación
-Suma
-Resta
+<h3>La idea es desarrollar una calculadora básica, que tenga las operaciones básicas:</h3>
+<ul>
+<li>División</li>
+<li>Multiplicacion</li>
+<li>Suma</li>
+<li>Resta</li>
+<li>Raiz</li>
+</ul>
 
 Además de poder realizar las operaciones anteriormente nombradas, al realizar una operación 
 Que no tenga un resultado definido de un aviso de error, así mismo se realizó un
